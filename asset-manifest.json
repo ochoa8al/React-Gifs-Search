@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/React-Gifs-Search/static/css/main.6a74dc7b.css",
+    "main.js": "/React-Gifs-Search/static/js/main.ece160f7.js",
+    "static/js/787.62af93e3.chunk.js": "/React-Gifs-Search/static/js/787.62af93e3.chunk.js",
+    "index.html": "/React-Gifs-Search/index.html",
+    "main.6a74dc7b.css.map": "/React-Gifs-Search/static/css/main.6a74dc7b.css.map",
+    "main.ece160f7.js.map": "/React-Gifs-Search/static/js/main.ece160f7.js.map",
+    "787.62af93e3.chunk.js.map": "/React-Gifs-Search/static/js/787.62af93e3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6a74dc7b.css",
+    "static/js/main.ece160f7.js"
+  ]
+}
