@@ -1,0 +1,76 @@
+.App {
+  text-align: center;
+}
+
+.App-content {
+  background-color: #55534f;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  min-height: 100vh;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 100px;
+  padding-top: 20px;
+}
+.gifsGrid{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  grid-template-rows: minmax(50px);
+  gap: 20px;
+}
+.imgGif{
+  border-radius: 10px;
+  position: relative;
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
+}
+.imgContainer{
+  position: relative;
+  text-align: left; 
+  box-shadow: 5px 5px 15px 0 #0f0e0ed8 ; 
+  border-radius: 10px;
+  height: 200px;
+  width: 100%;
+}
+.imgTitle{
+  position:absolute;
+  bottom: 15px;
+  left: 10px;
+  font-size: 15px;
+  background-color: rgba(22, 21, 21, 0.281) ;
+  width: 70%;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  border-radius: 30px;
+  padding-left: 8px;
+}
+a {
+  color: rgb(19, 204, 195);
+  transition: background-color .5s;
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(161, 240, 250);
+}
+li{
+  list-style: none;
+  text-align: left;
+}
+.App-logo{
+  width: 10%;
+  background-color: #fff;
+  border-radius: 50%;
+  cursor: pointer;  
+}
+.loading_logo{
+  width: 70px;
+  animation: run steps(15,end) 0.9s infinite;
+}
+@keyframes run{
+  to{
+    transform: rotate(360deg);
+  }
+}
