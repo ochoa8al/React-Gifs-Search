@@ -17,6 +17,10 @@ jobs:
         node-version: ${{matrix.node-version}}  
     - name: install packages
       run: npm install
+      - name: registry github user
+        run: |
+          git config --global user.ochoa8al@gmail.com <email>
+          git config --global user.ochoaal <name>
     - name: deploy the app
       run: npm run deploy
       env:
