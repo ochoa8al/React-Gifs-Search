@@ -10,7 +10,8 @@ export default function Home(){
   const [keywords, setKeyword] = useState("")
   const [path, pushLocation] = useLocation()
   const {loading,gifs} = useGifs()
-
+  const fixParaDeploy = path
+  console.log(fixParaDeploy);
   const handleSubmit = evt => {
     evt.defaultPrevent = true   
     pushLocation(`/search/${keywords}`)
