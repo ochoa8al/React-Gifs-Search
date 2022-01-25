@@ -20,4 +20,4 @@ jobs:
     - name: deploy the app
       run: npm run deploy
       env:
-      TOKENGITHUBGIFS: ${{ secrets.TOKENGITHUBGIFS }}
+        TOKENGITHUBGIFS: ${{ secrets.TOKENGITHUBGIFS }}
